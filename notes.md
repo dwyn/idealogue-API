@@ -5,14 +5,24 @@ Ideas can belong to multiple sections
 Ideas can be favorited / starred
 Ideas should be detailed in technologies and description
 
+Lucid Charts:
+https://lucid.app/invitations/accept/6459db82-0ae6-44ab-837e-0e90c87d9224
+
 
 ## Technologies I am considering
-  - graphql
+  - graphql 
+    --> https://evilmartians.com/chronicles/graphql-on-rails-1-from-zero-to-the-first-query
+
+    --> https://rubyonrails.org/
+    --> https://www.howtographql.com/graphql-ruby/0-introduction/
+
   - postgresql
-  - devise
+  - devise --> https://github.com/heartcombo/devise#getting-started
   - react
   - redux?
-  - activeadmin
+  - activeadmin --> https://activeadmin.info/0-installation.html
+  - rspec --> https://github.com/rspec/rspec-rails
+  - material UI
 
 
 Flatiron's Sections
