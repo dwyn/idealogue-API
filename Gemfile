@@ -7,6 +7,7 @@ ruby '3.0.0'
 gem 'activeadmin'
 gem 'devise'
 gem 'graphql'
+gem 'activerecord-reset-pk-sequence'
 #! <-- Added Gems End  -->
 
 
@@ -36,6 +37,7 @@ gem 'bootsnap', '>= 1.4.4', require: false
 group :development, :test do
   gem 'rspec-rails', '~> 4.0.2'
   gem 'pry-byebug'
+  gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
 end
 
 group :development do

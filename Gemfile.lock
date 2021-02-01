@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/faker-ruby/faker.git
+  revision: 664cbafe9d15bddb97843dcbe107204e6e7291cb
+  branch: master
+  specs:
+    faker (2.15.1)
+      i18n (>= 1.6, < 2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -56,6 +64,7 @@ GEM
     activerecord (6.1.1)
       activemodel (= 6.1.1)
       activesupport (= 6.1.1)
+    activerecord-reset-pk-sequence (0.2.1)
     activestorage (6.1.1)
       actionpack (= 6.1.1)
       activejob (= 6.1.1)
@@ -231,8 +240,10 @@ PLATFORMS
 
 DEPENDENCIES
   activeadmin
+  activerecord-reset-pk-sequence
   bootsnap (>= 1.4.4)
   devise
+  faker!
   graphql
   listen (~> 3.3)
   pg (~> 1.1)
@@ -241,7 +252,6 @@ DEPENDENCIES
   rails (~> 6.1.1)
   rspec-rails (~> 4.0.2)
   spring
-  tzinfo-data
 
 RUBY VERSION
    ruby 3.0.0p0
