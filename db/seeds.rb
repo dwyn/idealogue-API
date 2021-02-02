@@ -18,7 +18,8 @@ end
 end
 p "#{User.count} Users generated."
 
-["CLI", "Sinatra", "Rails", "JavaScript", "React"].each do |section|
+section_array = ["CLI", "Sinatra", "Rails", "JavaScript", "React"]
+section_array.each do |section|
   Section.create!(
     title: section,
     description: Faker::Hipster.sentence
